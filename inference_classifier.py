@@ -13,7 +13,7 @@ mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
 mp_drawing_styles = mp.solutions.drawing_styles
 
-labels_dict = {0: 'A', 1: 'C', 2: 'L'}
+labels_dict = {0: 'A', 1: 'B', 2: 'C', 3: 'D', 4: 'E'}
 
 while True:
     x_ = []
