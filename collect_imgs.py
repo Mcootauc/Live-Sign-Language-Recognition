@@ -9,6 +9,7 @@ number_of_classes = 3
 dataset_size = 100
 
 # List available cameras. 
+""""""
 for i in range(10):  # Check up to 10 cameras
     cap = cv2.VideoCapture(i)
     if not cap.isOpened():
