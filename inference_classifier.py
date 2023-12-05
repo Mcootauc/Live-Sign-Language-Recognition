@@ -6,6 +6,8 @@ import pickle
 model_dict = pickle.load(open('./model.p', 'rb'))
 model = model_dict['model']
 
+# Change the 0 to whatever camera you want to use 
+# Ex: 1 for the second camera, 2 for the third camera, etc.
 cap = cv2.VideoCapture(0)
 
 mp_drawing = mp.solutions.drawing_utils
