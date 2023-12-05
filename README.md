@@ -1,5 +1,5 @@
 # Sign Language Recognition
-This project seeks to leverage advancements in deep learning and image processing to create
+This project seeks to leverage advancements in ml and image processing to create
 an innovative solution for real-time sign language recognition. By addressing challenges such
 as varying hand orientations and background noise, we aim to develop a system that enhances
 communication accessibility for individuals with hearing impairments.
