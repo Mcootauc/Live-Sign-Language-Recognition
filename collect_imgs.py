@@ -18,7 +18,6 @@ for i in range(10):  # Check up to 10 cameras
         print(f"Camera {i} is available.")
     cap.release()
 
-#EVAN AND MITCH YOU MIGHT NEED TO CHANGE THIS. I added a little for loop to tell you what camera # ur thing is.
 cap = cv2.VideoCapture(0)
 for j in range(number_of_classes):
     if not os.path.exists(os.path.join(DATA_DIR, str(j))):
