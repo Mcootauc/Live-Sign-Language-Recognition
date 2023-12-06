@@ -15,8 +15,9 @@ Make sure you have Python 3.8.10 installed so you can install the following pack
 CD into the project folder, and run the following command in the terminal.
 
 `pip install numpy`
-`pip install opencv-python`
-`pip install mediapipe`
+`pip install opencv-python==4.7.0.68`
+`pip install mediapipe==0.9.0.1`
+`pip install scikit-learn==1.2.0`
 
 ## Collecting Sign Language Data
 Set the 'cap = cv2.VideoCapture(0)' code to whichever camera you want to use. 
