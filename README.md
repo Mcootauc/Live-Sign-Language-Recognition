@@ -2,17 +2,21 @@
 This project harnesses the power of machine learning (ML) and image processing to create an innovative solution for real-time sign language recognition. Using a webcam, the system can recognize and interpret sign language gestures, making communication more accessible for those who rely on sign language.
 
 ## 🔗 Developers
-- [@Mitchell Cootauco](https://github.com/Mcootauc)
-- [@Owen Hunger](https://github.com/ohunger)
-- [@Evan Yu](https://github.com/yuevan10284)
+* [@Mitchell Cootauco](https://github.com/Mcootauc)
+* [@Owen Hunger](https://github.com/ohunger)
+* [@Evan Yu](https://github.com/yuevan10284)
 
 ## Tech Stack
-![Python](https://img.shields.io/badge/-Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Python](https://img.shields.io/badge/-Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+* Main programming language used.
+
+![MediaPipe](https://img.shields.io/badge/-MediaPipe-34A853?style=for-the-badge&logo=google&logoColor=white) 
+* Used for real-time hand tracking and gesture recognition.
 
 ## 🛠️  Setup Instructions
 # Prerequisites
-- Python 3.8.10
-- Webcam for capturing sign language gestures
+* Python 3.8.10
+* Webcam for capturing sign language gestures
 # Installation
 1. Clone the repository to your local machine
    `git clone [repository URL]`
@@ -36,4 +40,4 @@ This project harnesses the power of machine learning (ML) and image processing t
    `python inference_classifier.py`
 3. The program will access your webcam. Perform sign language gestures in front of the camera to see the model's predictions.
 ## Exiting the Program
-To exit the real-time detection, press the `Esc
+* To exit the real-time detection, press the `Esc
