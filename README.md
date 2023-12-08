@@ -15,11 +15,11 @@ This project harnesses the power of machine learning (ML) and image processing t
 - Webcam for capturing sign language gestures
 #Installation
 1. Clone the repository to your local machine
-   'git clone [repository URL]'
+   `git clone [repository URL]'
 2. Change directory (cd) into the project folder
-   'cd [project folder name]'
+   `cd [project folder name]'
 3. Install the required packages using pip:
-   'pip install numpy opencv-python==4.7.0.68 mediapipe==0.9.0.1 scikit-learn==1.2.0'
+   `pip install numpy opencv-python==4.7.0.68 mediapipe==0.9.0.1 scikit-learn==1.2.0'
 
 ## Collecting Sign Language Data
 Set the 'cap = cv2.VideoCapture(0)' code to whichever camera you want to use. 
