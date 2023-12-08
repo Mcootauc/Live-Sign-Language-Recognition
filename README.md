@@ -1,6 +1,5 @@
 # Sign Language Recognition
-This project seeks to leverage advancements in ml and image processing to create
-an innovative solution for real-time sign language recognition.
+This project harnesses the power of machine learning (ML) and image processing to create an innovative solution for real-time sign language recognition. Using a webcam, the system can recognize and interpret sign language gestures, making communication more accessible for those who rely on sign language.
 
 ## 🔗 Developers
 - [@Mitchell Cootauco](https://github.com/Mcootauc)
@@ -10,14 +9,17 @@ an innovative solution for real-time sign language recognition.
 ## Tech Stack
 ![Python](https://img.shields.io/badge/-Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-# How to setup
-Make sure you have Python 3.8.10 installed so you can install the following packages.
-CD into the project folder, and run the following command in the terminal.
-
-`pip install numpy`
-`pip install opencv-python==4.7.0.68`
-`pip install mediapipe==0.9.0.1`
-`pip install scikit-learn==1.2.0`
+## 🛠️  Setup Instructions
+#Prerequisites
+- Python 3.8.10
+- Webcam for capturing sign language gestures
+#Installation
+1. Clone the repository to your local machine
+   'git clone [repository URL]'
+2. Change directory (cd) into the project folder
+   'cd [project folder name]'
+3. Install the required packages using pip:
+   'pip install numpy opencv-python==4.7.0.68 mediapipe==0.9.0.1 scikit-learn==1.2.0'
 
 ## Collecting Sign Language Data
 Set the 'cap = cv2.VideoCapture(0)' code to whichever camera you want to use. 
