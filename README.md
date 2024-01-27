@@ -1,4 +1,8 @@
-# 🤟Sign Language Recognition🤟
+#
+
+https://github.com/Mcootauc/Live-Sign-Language-Recognition/assets/73667103/0375e942-260a-4122-b542-d3ac0c91faf5
+
+ 🤟Sign Language Recognition🤟
 This project harnesses the power of machine learning (ML) and image processing to create an innovative solution for real-time sign language recognition. Using a webcam, the system can recognize and interpret sign language gestures, making communication more accessible for those who rely on sign language.
 
 ## 🔗 Developers
